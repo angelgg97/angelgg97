@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<title>Concesionario hgfhghhgas</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="style/index.css">
+		<script src="scripts/include.js"></script>
+		<script src="scripts/sxlinclu.js"></script>
+		</head>
+
+
+<body onload="includeHTML(),displayResult();">
+	<nav>
+		<!--INCLUDE DE LA BARRA DE NAVEGACION-->
+		<div w3-include-html="html/nav.html"></div>
+	</nav>
+	<!--SLIDER DE IMAGENES-->
+	<header>
+	<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="sliderimagen" src="img/img1.jpg" style="width:100%">
+      <div class="text"><a href="html/opel.html">Opel</a></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="sliderimagen" src="img/img2.jpg" style="width:100%">
+      <div class="text"><a href="html/BMW.html">BMW</a></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="sliderimagen" src="img/img3.jpg" style="width:100%">
+      <div class="text"><a href="html/ford.html">Ford</a></div>
+    </div>
+
+    <!-- Botones anterior y siguiente -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- circulos -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+	<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+</header>
+
+<section class="divcoches" id="coches">
+
+</section>
+
+
+
+
+
+<footer w3-include-html="html/footer.html"></footer>
+
+</body>
+</html>

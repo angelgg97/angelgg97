@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xml/concesionario.xsl"?>
+<concesionario>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/corsa.png"></foto>
+   <marca>Opel</marca>
+   <modelo>Corsa</modelo>
+   <year>2016</year>
+   <price>30.000€</price>
+ </coche>
+
+</concesionario>
