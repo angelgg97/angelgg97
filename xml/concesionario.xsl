@@ -6,11 +6,21 @@
 
     <xsl:for-each select="concesionario/coche">
       <article class="artcoche">
-        <ul class="ucoches">
-          <li><img class="fcoches" src="{foto/@src}"/></li>
-          <li><xsl:value-of select="marca" /></li>
-          <li><xsl:value-of select="modelo" /></li>
-        </ul>
+      <table class="ucoches">
+        <tr>
+          <td rowspan="5"><img class="fcoches" src="{foto/@src}"/></td>
+          <td><xsl:value-of select="marca" /></td>
+        </tr>
+        <tr>
+          <td><xsl:value-of select="modelo" /></td>
+        </tr>
+        <tr>
+          <td><xsl:value-of select="year" /></td>
+        </tr>
+        <tr>
+          <td><xsl:value-of select="price" /></td>
+        </tr>
+      </table>
       </article>
     </xsl:for-each>
 

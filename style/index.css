@@ -9,17 +9,29 @@ margin: 0 auto;
 }
 
 .ucoches{
-  list-style-type: none;
+  background-color: grey;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
 }
+
+.ucoches:hover {
+    transform: scale(1.25);
+  }
 
 .divcoches{
   display: table;
   clear: both;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .artcoche{
   float: left;
   width: 350px;
+  padding-bottom: 10px;
+
 }
 
 /*SLIDER*/
@@ -135,4 +147,9 @@ footer {
    background-color: Grey;
    color: white;
    text-align: center;
+   z-index: -1;
+}
+
+.dfooter{
+  display: table;
 }
