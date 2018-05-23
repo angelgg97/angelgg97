@@ -16,8 +16,8 @@ return xhttp.responseXML;
 
 function displayResult()
 {
-xml = loadXMLDoc("xml/concesionario.xml");
-xsl = loadXMLDoc("xml/concesionario.xsl");
+xml = loadXMLDoc("../xml/concesionario.xml");
+xsl = loadXMLDoc("../xml/concesionario.xsl");
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
