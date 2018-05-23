@@ -1,2 +1,2 @@
 Proyecto de marcas Ángel García Guerra
-https://angelgg97.github.io/pmarcas/
+https://angelgg97.github.io/angelgg97/
