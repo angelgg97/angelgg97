@@ -29,7 +29,7 @@ margin: 0 auto;
 
 .artcoche{
   float: left;
-  width: 350px;
+  width: 280px;
   padding-bottom: 10px;
 
 }
@@ -150,6 +150,6 @@ footer {
    z-index: -1;
 }
 
-.dfooter{
+.dfooter {
   display: table;
 }
