@@ -6,56 +6,70 @@
    <foto src="../img/corsa.png"></foto>
    <marca>Opel</marca>
    <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <price>9.100€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
+   <foto src="../img/cabrio.png"></foto>
    <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <modelo>Cabrio</modelo>
+   <price>27.900€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
+   <foto src="../img/astra.png"></foto>
    <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <modelo>Astra</modelo>
+   <price>13.990€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
-   <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <foto src="../img/serie1.png"></foto>
+   <marca>BMW</marca>
+   <modelo>Serie 1</modelo>
+   <price>25.750€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
-   <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <foto src="../img/serie2.png"></foto>
+   <marca>BMW</marca>
+   <modelo>Serie 2</modelo>
+   <price>32.200€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
-   <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <foto src="../img/x6.png"></foto>
+   <marca>BMW</marca>
+   <modelo>X6</modelo>
+   <price>77.600€</price>
  </coche>
 
  <coche>
-   <foto src="../img/corsa.png"></foto>
-   <marca>Opel</marca>
-   <modelo>Corsa</modelo>
-   <year>2016</year>
-   <price>30.000€</price>
+   <foto src="../img/focus.png"></foto>
+   <marca>Ford</marca>
+   <modelo>Focus</modelo>
+   <price>13.113€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/fiesta.png"></foto>
+   <marca>Ford</marca>
+   <modelo>Fiesta</modelo>
+   <price>9.750€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/kuga.png"></foto>
+   <marca>Ford</marca>
+   <modelo>Kuga</modelo>
+   <price>17.950€</price>
+ </coche>
+
+ <coche>
+   <foto src="../img/mustang.png"></foto>
+   <marca>Ford</marca>
+   <modelo>Mustang</modelo>
+   <price>40.350€</price>
  </coche>
 
 </concesionario>

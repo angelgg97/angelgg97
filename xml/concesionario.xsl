@@ -15,10 +15,14 @@
           <td><xsl:value-of select="modelo" /></td>
         </tr>
         <tr>
-          <td><xsl:value-of select="year" /></td>
+          <td><xsl:value-of select="price" /></td>
         </tr>
         <tr>
-          <td><xsl:value-of select="price" /></td>
+          <td>
+              <form action="#">
+                <input type="submit" value="Comprar" />
+              </form>
+          </td>
         </tr>
       </table>
       </article>
