@@ -1,40 +1,48 @@
 <html>
 <head>
 		<title>Concesionario - Contacto</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="../style/index.css">
-    <meta charset="UTF-8">
-    <script src="../scripts/include.js"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../style/style.css">
+		<link rel="stylesheet" type="text/css" href="../style/portadas.css">
+		<link rel="stylesheet" type="text/css" href="../style/contacto.css">
+		<script src="../scripts/include.js"></script>
 </head>
 
 <body onload="includeHTML();">
     	<nav>
-    		<!--INCLUDE DE LA BARRA DE NAVEGACION-->
+    		<!--BARRA DE NAVEGACION-->
     		<div w3-include-html="../html/nav.html"></div>
     	</nav>
 
+			<div class="portada">
+				<img class="cportada" src="../img/portada2.jpg">
+				<div class="cmarca">Contactenos</div>
+			</div>
 
-<div class="form">
-<form method="post">
-Nombre:<br>
-<input name="name" required="" type="text">
-<br>
-<br>
-Apellidos:<br>
-<input name="surname" type="text">
-<br>
-<br>
-E-Mail:<br>
-<input name="email" required="" type="email">
-<br>
-<br>
-Escriba sus comentarios:<br>
-<textarea name="message" rows="15" cols="30" required=""></textarea>
-<br>
-<input value="Enviar" type="submit" align="middle">
-</form>
-</div>
+	<div class="form">
+		<form method="post">
+			Nombre:<br>
+			<input name="name" required="" type="text">
+			<br>
+			<br>
+			Apellidos:<br>
+			<input name="surname" type="text">
+			<br>
+			<br>
+			E-Mail:<br>
+			<input name="email" required="" type="email">
+			<br>
+			<br>
+			Escriba sus comentarios:<br>
+			<textarea name="message" rows="15" cols="30" required=""></textarea>
+			<br>
+			<input value="Enviar" type="submit" align="middle">
+		</form>
+	</div>
 
-</div>
+<!--FOOTER-->
+<footer w3-include-html="./footer.html"></footer>
 ﻿</body>
 </html>
