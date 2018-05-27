@@ -26,7 +26,7 @@ return xhttp.responseXML;
 function displayResult()
 {
 xml = loadXMLDoc("../xml/concesionario.xml");
-xsl = loadXMLDoc("../xml/opel.xsl");
+xsl = loadXMLDoc("../xml/ford.xsl");
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
@@ -53,8 +53,8 @@ else if (document.implementation && document.implementation.createDocument)
 	</nav>
 	<!--PORTADA-->
 	<div class="portada">
-		<img class="cportada" src="../img/portada1.jpg">
-		<div class="cmarca">Opel</div>
+		<img class="cportada" src="../img/portada3.jpg">
+		<div class="cmarca">Ford</div>
 	</div>
 
 	<section class="divcoches" id="coches"></section>

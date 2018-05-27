@@ -21,6 +21,7 @@ margin: 0 auto;
   }
 
 .divcoches{
+  width: 1400px;
   display:table;
   clear: both;
   padding-top: 25px;
@@ -76,6 +77,26 @@ margin: 0 auto;
 	100% {margin-left: -300%;}
 }
 
+.portada{
+  position: relative;
+  text-align: center;
+  color: Black;
+  font-size: 50px;
+
+}
+
+.cportada{
+  width: 1400px;
+
+}
+.cmarca{
+  border-style: solid;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
 /* FOOTER */
 footer {
