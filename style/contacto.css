@@ -1,5 +1,7 @@
 .dcorreo{
   width: 1400px;
+  height: 700px;
+  background-color: #ced9ff;
   border:1px solid black;
   padding: 10px;
   margin-left: 20px;
@@ -13,4 +15,6 @@
 
 .cimagen{
   float: left;
+  width: 50%;
+  height: 95%;
 }
