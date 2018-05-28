@@ -2,11 +2,10 @@
   width: 1400px;
   height: 700px;
   background-color: #ced9ff;
-  border:1px solid black;
   padding: 10px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .correo{
